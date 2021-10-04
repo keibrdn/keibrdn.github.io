@@ -1,24 +1,63 @@
-html {
-    height: 100%;
-    
+
+
+body {
+    background-color: #E5E5E5;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 70px;
 }
 
-body{
-    background-image: radial-gradient(circle, #fa709a, #fee140, #ffffff 40%);
-    background-repeat: no-repeat;
-}
-
-.title {
-    font-family: 'Arimo', sans-serif;
-    font-size: 100px;
-}
-
-.text {
+.navbar-dark .nav-item.active .nav-link{
+    color: #F2BFE0; 
     font-family: 'IBM Plex Mono', monospace;
-    font-weight: 300;
-    font-size: 25px;
+    margin-left: 50px;
+    
+
+}
+.navbar-dark .nav-item:hover .nav-link{
+    color: white;
 }
 
+.navbar-dark .navbar-brand {
+    color: #F2BFE0; 
+    font-family: 'Archivo Black', sans-serif;
+}
 
-/*font-family: 'IBM Plex Mono', monospace;
-font-family: 'Noto Sans', sans-serif;*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.name{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 125px;
+    color: #A3BC9A;
+}
+
+.header{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 70px;
+    color: #A3BC9A;
+}
+
+.text{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #F2BFE0;
+    line-height: 30px;
+}
+
+.break{
+    height: 300px;
+}
+
+.project-title{
+    color: #A3BC9A;
+    text-decoration: underline;
+}
+
+.project-tools{
+    color: #F2BFE0;
+    font-style: italic;
+}
+  
+
+

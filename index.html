@@ -9,9 +9,7 @@
 
     <!---google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=IBM+Plex+Mono:wght@100;200;300;500&family=Montserrat:wght@500&family=Noto+Sans:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@200;500&display=swap" rel="stylesheet">
 
     <!--- bootsrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -22,40 +20,86 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row" style="border-bottom: 2px solid">
-            <div class="col-2" style="text-align: center; border: 2px solid;">
+    <!--------navbar--------->
+    <nav class=" navbar fixed-top navbar-expand-md navbar-dark nav-collapse" style="margin: 4%;">
+        <a class="navbar-brand" href="index.html"><u>kb</u></a>
 
-                <h1> hi</h1>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
 
-            </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">about me</a>
+            </li>
 
-            <div class="col" style="text-align: right; border: 2px solid;">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">my work</a>
+            </li>
 
-                <h1> 12</h1>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">connect with me!</a>
+              </li>
 
-            </div>
+            
+          </ul>
+          
         </div>
+      </nav>
 
 
-        <div class="row" style="border-bottom: 2px solid;">
-            <h1 class="title"> Hey!
-                i.
-            </h1>
-        </div>
 
-        <div class="row" style="border-bottom: 2px solid;">
-            <h1 class="title"> Hey!
-                row 3
-            </h1>
-        </div>
-    </div>
-        
-        
+      <!-----------name------------>
+      <div>
+          <p class="name">keila</p>
+          <br>
+          <p class="name">braden</p>
+      </div>
+      <br>
+     
+      <div style="width: 50%; float: right;">
+          <span class="text">aspiring front end devloper and lover of all things design.</span>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <img src="arrow.png" style="width: 30px; height: 30px; float: right">
+      <div class="break"></div>
+
+
+      <!-----------about me----------------->
+      <p class="header">about me</p>
+      <div style="display: inline-block;">
+          <p class="text" style="width: 50%; float: right; text-align: right;">
+            Hi there! I’m <i>Keila</i>, a third-year Computer Science with Business Applications major at the <i>University of California, Riverside</i>.
+          </p>
+          
+          <p class="text" style="width: 50%; float: right; text-align: right;"> 
+            While my background is in computer science, I have recently discovered the field of <i>UX/UI design</i> and <i>front end devlopment</i>. <br>I have always had a creative side and web design has allowed me to combine my interest in the arts with my techincal skills.
+          </p>
+            
+          <p class="text" style="width: 50%; float: right; text-align: right;">
+            I am located in Riverside, California and I’m currently on the hunt for an internship that would allow me to apply my creative and technical skills to real-world projects.
+         </p>
+
+      </div>
+
+      
+
+      <p class="header" style="float: right;">my work</p>
+
+      <div style="width: 50%; float: left;">
+        <p class="text project-title">Tic-Tac-Toe</p>
+
+        <p class="text project-tools">Javascript, HTML/CSS</p>
+      </div>
+      
 
 
     
-
 
 </body>
 
